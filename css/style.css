@@ -1,0 +1,75 @@
+@font-face {
+  font-family: ArcadeClassic;
+  src: url(fonts/ARCADECLASSIC.TFF);
+}
+
+header>div {
+	padding:  50px;
+	width: 33%;
+}
+header>div>a, header>div>img{
+	vertical-align: middle;
+	line-height: normal;
+	padding: 10px;
+	text-decoration: none;
+}
+
+header>div>a{
+	color: #ff63b8;
+	font-family: Arial;
+}
+
+.container {
+  display: flex;                  /* establish flex container */
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: nowrap;              /* default value; can be omitted */
+  justify-content: space-between; 
+  align-items: center;
+}
+
+#header-left, #header-left>*{
+	float: left;
+}
+#footer-left {
+	float: left;
+}
+
+
+#header-right, #header-right>* {
+	float:  right;
+}
+#footer-right {
+	float:  right;
+}
+
+#header-center, #footer-center {
+	float:  none;
+}
+
+footer {
+	background-color: #ff4b95;
+}
+
+footer>div {
+	text-align: center;
+	width: 33%;
+}
+
+footer>div>h1{
+	color: white;
+	font-family: ArcadeClassic;
+	font-size: 55px;
+	font-weight: normal;
+	margin: 0 auto;
+}
+
+footer>div>a {
+	color:  white;
+	text-decoration: none;
+	font-family: Arial;
+	margin: 0 auto;
+}
+
+.footer-follow {
+	padding: 5px;
+}
