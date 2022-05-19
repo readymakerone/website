@@ -3,6 +3,11 @@
   src: url(fonts/ARCADECLASSIC.TFF);
 }
 
+:root {
+      --pink: #ff63b8;
+      --placeholder: #999999;
+}
+
 header>div {
 	padding:  50px;
 	width: 33%;
@@ -15,8 +20,31 @@ header>div>a, header>div>img{
 }
 
 header>div>a{
-	color: #ff63b8;
+	color: var(--pink);
 	font-family: Arial;
+	font-size:  17px;
+}
+
+h1 {
+	color: var(--pink);
+	font-family:  Arial;
+	margin:  0px;
+	display: inline-block;
+}
+
+ul {
+	margin:  0px;
+	margin-left:  100px;
+}
+li {
+	margin:  15px;
+	padding: 15px;
+	border: 1px solid #ff64b8;
+	display: inline-block;
+}
+
+li:hover {
+	box-shadow: 0 0 8px 0 var(--pink);
 }
 
 .container {

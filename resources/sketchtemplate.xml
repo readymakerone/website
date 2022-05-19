@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="1300mm" height="450mm" viewBox="0 0 1300 450" version="1.1" id="svg1831">
+  <defs id="defs1825"/>
+  <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="1" inkscape:cx="3465.875" inkscape:cy="769" inkscape:document-units="mm" inkscape:current-layer="fretboard" showgrid="false" showguide="false" inkscape:guide-bbox="true" inkscape:window-width="1920" inkscape:window-height="1017" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-maximized="1" inkscape:pagecheckerboard="0">
+    <sodipodi:guide position="1000,225.0" orientation="0,1" id="centerline" inkscape:locked="true"/>
+    <sodipodi:guide position="1000,225.0" orientation="1,0" id="nutline" inkscape:locked="true"/>
+    <sodipodi:guide position="352.29999999999995,225.0" orientation="1,0" id="bridgeline" inkscape:locked="true"/>
+    <sodipodi:guide position="514.2249999999999,225.0" orientation="1,0" id="24fretline" inkscape:locked="true"/>
+  </sodipodi:namedview>
+  <metadata id="metadata1828">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g inkscape:groupmode="layer" id="neck" inkscape:label="Neck" style="display:inline">
+  </g>
+  <g inkscape:groupmode="layer" id="fretboard" inkscape:label="Fretboard" style="display:inline">
+  </g>
+  <g inkscape:groupmode="layer" id="frets" inkscape:label="Frets" style="display:inline">
+  </g>
+  <g inkscape:groupmode="layer" id="fretmarkers" inkscape:label="Fret Markers" style="display:inline">
+  </g>
+  <g inkscape:groupmode="layer" id="headstock" inkscape:label="Headstock" style="display:inline">
+  </g>
+  <g inkscape:groupmode="layer" id="pickups" inkscape:label="Pickups" style="display:inline">
+  </g>
+  <g inkscape:groupmode="layer" id="strings" inkscape:label="Strings" style="display:inline">
+  </g>
+</svg>

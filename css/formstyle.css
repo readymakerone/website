@@ -1,0 +1,167 @@
+:root {
+      --pink: #ff63b8;
+      --placeholder: #999999;
+}
+html, body {
+      min-height: 100%;
+      background: black;
+}
+body, div, form, input, select, p { 
+      padding: 0;
+      margin: auto;
+      outline: none;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 14px;
+      color: white;
+      line-height: 22px;
+}
+h1 {
+      position: absolute;
+      margin: 0;
+      font-size: 32px;
+      color: var(--pink);
+      z-index: 2;
+}
+.testbox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: inherit;
+      padding: 20px;
+      max-width:  1000px;
+}
+label{
+      display:flex;
+      flex-direction:column;
+}
+form {
+      width: 100%;
+      padding: 20px;
+      border-radius: 6px;
+      background: black;
+      box-shadow: 0 0 30px 0 var(--pink);
+}
+.banner {
+      position: relative;
+      height: 90px;
+      background-color: black;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+}
+
+p.top-info {
+      margin: 10px 0;
+}
+input, select {
+      margin-bottom: 10px;
+      border: 1px solid var(--pink);
+      border-radius: 3px;
+      background-color: black;
+      width: 250px;
+      padding: 5px;
+      background: transparent;
+}
+input::placeholder {
+      color: var(--placeholder);
+}
+input:hover, select:hover{
+      box-shadow: 0 0 8px 0 var(--pink);
+}
+input[type=radio] {
+      width: 0;
+      visibility: hidden;
+}
+label.radio {
+      position: relative;
+      display: inline-block;
+      margin: 5px 20px 25px 0;
+      cursor: pointer;
+}
+.question span {
+      margin-left: 30px;
+}
+label.radio:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      width: 17px;
+      height: 17px;
+      border-radius: 50%;
+      border: 2px solid var(--pink);
+}
+label.radio:after {
+      content: "";
+      position: absolute;
+      width: 8px;
+      height: 4px;
+      top: 6px;
+      left: 5px;
+      background: transparent;
+      border: 3px solid var(--pink);
+      border-top: none;
+      border-right: none;
+      transform: rotate(-45deg);
+      opacity: 0;
+}
+input[type=radio]:checked + label:after {
+      opacity: 1;
+}
+.btn-block {
+      margin-top: 10px;
+      text-align: center;
+}
+button {
+      width: 150px;
+      padding: 10px;
+      border: 1px solid var(--pink);
+      border-radius: 5px; 
+      background: black;
+      font-size: 16px;
+      color: var(--pink);
+      cursor: pointer;
+}
+button:hover {
+      background: var(--pink);
+      color: black;
+}
+@media (min-width: 568px) {
+      .name-item, .city-item {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+}
+option {
+      background-color: black;
+}
+p.form-section-title {
+      color: var(--pink);
+}
+.question-answer {
+      display: flex;
+      white-space: nowrap;
+      align-content: center;
+      margin-left:  0px;
+}
+.question-answer > * {
+}
+.hidden-container {
+      margin: 0px;
+}
+.input-label {
+      margin: 0px;
+      display: flex;
+      align-items: center;
+}
+.input-label p {
+      display: inline-block;
+      margin: 0px;
+}
+.tooltip {
+      width: 24px;
+      margin-left: 12px;
+      display:  inline-block;
+      float: right;
+}
